@@ -2,28 +2,78 @@
 	html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 	h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}h1,h2,h3{margin:1em 0}h1,h2,h3,h4,h5,h6,strong{font-weight:bold}abbr,acronym{border-bottom:1px dotted #000;cursor:help}em{font-style:italic}blockquote,ul,ol,dl{margin:1em}ol,ul,dl{margin-left:2em}ol{list-style:decimal outside}ul{list-style:disc outside}dl dd{margin-left:1em}th,td{border:1px solid #000;padding:.5em}th{font-weight:bold;text-align:center}caption{margin-bottom:.5em;text-align:center}p,fieldset,table,pre{margin-bottom:1em}input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em}#yui3-css-stamp.cssbase{display:none}
 	body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}#yui3-css-stamp.cssfonts{display:none}
+
+	@font-face {  font-family: 'Glegoo';  src: url('fonts/Glegoo/Glegoo-Regular.ttf') format("truetype");  }
+	@font-face {  font-family: 'Josefin'; src: url('fonts/Josefin_Slab/Josefin_Slab-Italic.ttf') format("truetype"); }
+	@font-face {  font-family: 'Magra';   src: url('fonts/Magra/Magra-Regular.ttf') format("truetype"); }
 /**/
 
-@font-face {  
-	font-family: "Glegoo-Regular";
-  	src: url("fonts/Glegoo/Glegoo-Regular.ttf") format("truetype");  
-}
+body { background: url('../img/tapiz-back.jpg') center center rgba(255,255,255,0.5);}
+div.well{ background:rgba(0,0,0,0.4); }
 
-/*
-@font-face {  font-family: OpenSans-Regular;
-    		  src: url('fonts/Open_Sans/OpenSans-Regular.ttf') format("truetype");  }
-@font-face {  
-	font-family: JosefinSlab-Italic;
-    src: url('fonts/Josefin_Slab/JosefinSlab-Italic.ttf') format("truetype");  
-}
+/* Header */
+	div#header{
+		height:140px;
+		padding: 0px;
+	}
 
-@font-face {  
-	font-family: Magra-Regular;
-  	src: url('fonts/Magra/Magra-Regular.ttf') format("truetype");  
-}
-*/
-body { padding-top: 60px; padding-bottom: 40px;}
+	h1#banner {
+		/**/margin:15px auto; /*Banner Centrado*/
+		font-family:'Glegoo';
+		font-size:4em;
+		font-weight:lighter;
+		width:320px;
+		height:50px;
+		background: #eee;
+		line-height:55px;
+		padding: 15px;
+	}
 
-.sidebar-nav {padding: 9px 0;}
+	h1#banner #coletilla{
+		position: relative;
+		top:-20px;
+		left:335px;
+		width: 0;
+		height: 0;
+		border-bottom: 30px solid #eee; 
+		border-right: 20px solid transparent;	
+	}
 
-h1{	font-family:"Glegoo-Regular";}
+	p#cite {
+		font-family:'Glegoo';
+		font-size:1.3em;
+		color:#fff;
+		font-weight:bold;
+		text-shadow: 1px 1px 2px #000;
+		float: left;
+		margin-top: 5px;
+	}
+
+	div#social{
+		float: right;
+	}
+
+	.fb_edge_widget_with_comment {
+		position: relative;
+		top: -3px;
+		margin: 0px 10px;
+	}
+
+	div#plusone{
+		top:1px;
+	}
+
+/* Contend */
+	div#content{
+		font-family:'Glegoo';
+		color:#fff;
+	}
+
+/* Footer */
+	div#footer{
+		font-family:'Glegoo';
+		color:#fff;
+	}
+	div#footer p#info{ float:left;}
+	div#footer p#contacto{ float:right;}
+
