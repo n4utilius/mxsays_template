@@ -8,37 +8,39 @@
 	@font-face {  font-family: 'Magra';   src: url('fonts/Magra/Magra-Regular.ttf') format("truetype"); }
 /**/
 
-body { background: url('../img/tapiz-back.jpg') center center rgba(255,255,255,0.5);}
+body { background: url('../img/tapiz-back.jpg') center center}
 div.well{ background:rgba(0,0,0,0.4); }
 
 /* Header */
 	div#header{
-		height:140px;
+		min-height:140px;
 		padding: 0px;
 	}
 
 	h1#banner {
-		/**/margin:15px auto; /*Banner Centrado*/
+		margin:25px 10px 10px 10px ;
 		font-family:'Glegoo';
-		font-size:4em;
-		font-weight:lighter;
-		width:320px;
+		font-size:5em;
+		font-weight:bold;
+		width:400px;
 		height:50px;
-		background: #eee;
+		/*background: #eee;*/
 		line-height:55px;
-		padding: 15px;
-	}
+		text-shadow: 2px 2px 5px #000;
+		color:#fff;
 
-	h1#banner #coletilla{
-		position: relative;
-		top:-20px;
-		left:335px;
-		width: 0;
-		height: 0;
-		border-bottom: 30px solid #eee; 
-		border-right: 20px solid transparent;	
 	}
-
+	/*
+		h1#banner #coletilla{
+			position: relative;
+			top:-20px;
+			left:335px;
+			width: 0;
+			height: 0;
+			border-bottom: 30px solid #eee; 
+			border-right: 20px solid transparent;	
+		}
+	*/
 	p#cite {
 		font-family:'Glegoo';
 		font-size:1.3em;
@@ -46,7 +48,7 @@ div.well{ background:rgba(0,0,0,0.4); }
 		font-weight:bold;
 		text-shadow: 1px 1px 2px #000;
 		float: left;
-		margin-top: 5px;
+		margin: 5px 10px;
 	}
 
 	div#social{
@@ -66,8 +68,19 @@ div.well{ background:rgba(0,0,0,0.4); }
 /* Contend */
 	div#content{
 		font-family:'Glegoo';
-		color:#fff;
+		color:#000;
 	}
+
+	h1#tweet-text{
+		background: #eee;
+	}
+
+	h3#tweet-author{
+		float:right;
+	}
+
+	div#content a{color: #34d0ba; font-weight:bold;}
+	div#content a:hover{color: #00a08a; text-decoration:none;}
 
 /* Footer */
 	div#footer{
@@ -77,3 +90,5 @@ div.well{ background:rgba(0,0,0,0.4); }
 	div#footer p#info{ float:left;}
 	div#footer p#contacto{ float:right;}
 
+	div#footer a{color: #34d0ba; }
+	div#footer a:hover{color: #00a08a; text-decoration:none;}

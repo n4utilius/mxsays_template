@@ -40,7 +40,7 @@ var tweetquote = function () {
 		'lang'					: 	"es", // http://en.wikipedia.org/wiki/ISO_639-1
 		'animationtype'		:  'fade', 
 		'animationspeed'		:  'slow', 
-		'defaulttext'			:  "Cargando lo que el pueblo dice"
+		'defaulttext'			:  ""
 	};
 	
 	var rootId = 'tweet_quote', wrapId = 'tweet_quote_wrapper', textId = "tweet_quote_text", authorId = 'tweet_quote_author', rootDom, quoteDom, intId, sinceId, handlerTextParser, handlerQuoteUpdate; 
@@ -163,10 +163,8 @@ var tweetquote = function () {
 			text = text.replace( pattern_tags , '');
 		}
 		
-		//var html = '<h1><span id="' + textId + '">' + text + '</span></h1>';		
-		var html = '<h3><span id="' + authorId + '">' + '<a href="http://www.twitter.com/' + tweet.from_user + '">' + tweet.from_user + '</a><h4>Dijo :</h4></span></h3>';
-		html += '<h1><span id="' + textId + '">' + text + '</span></h1>';	
-		html += '<h4>' + tweet.created_at + '</h4>'	
+		var html = '<h1 id="tweet-text">' + text + '</h1>';
+		html += '<h3 id="tweet-author">' + '<a href="http://www.twitter.com/' + tweet.from_user + '"> @' + tweet.from_user + '</a></h3>';
 		
 				
 		if( handlerTextParser ) {
