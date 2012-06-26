@@ -163,7 +163,7 @@ var tweetquote = function () {
 			text = text.replace( pattern_tags , '');
 		}
 		
-		var html = '<h1 id="tweet-text">' + text + '</h1>';
+		var html = '<h1 id="tweet-text">' + text + '</h1> <div id="coletilla"></div>';
 		html += '<h3 id="tweet-author">' + '<a href="http://www.twitter.com/' + tweet.from_user + '"> @' + tweet.from_user + '</a></h3>';
 		
 				
