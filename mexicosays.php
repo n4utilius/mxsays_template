@@ -4,7 +4,6 @@
 		<meta charset="UTF-8">
 		<!--link href='http://fonts.googleapis.com/css?family=Glegoo|Magra|Josefin+Slab:700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
 		<link href="css/styles.css" rel="stylesheet">
-		<!--link href="css/mexico-says.css" rel="stylesheet"-->
 		<link href="css/bootstrap.css" rel="stylesheet">
 
 		<title>México dice</title>

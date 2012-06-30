@@ -7,12 +7,12 @@
 	@font-face {  font-family: 'Josefin'; src: url('fonts/Josefin_Slab/Josefin_Slab-Italic.ttf') format("truetype"); }
 	@font-face {  font-family: 'Magra';   src: url('fonts/Magra/Magra-Regular.ttf') format("truetype"); }
 /**/
-
 body { 
-	background: url('../img/tapiz-back.jpg') center center;
+	background: url('../img/tapiz-back.jpg') repeat-y;
 	padding: 20px;
-	min-height:600px;
+	min-height:auto;
 }
+
 div.well{ background:rgba(0,0,0,0.4); }
 
 /* Header */
@@ -28,23 +28,12 @@ div.well{ background:rgba(0,0,0,0.4); }
 		font-weight:bold;
 		width:450px;
 		height:50px;
-		/*background: #eee;*/
 		line-height:55px;
 		text-shadow: 2px 2px 5px #000;
 		color:#fff;
 
 	}
-	/*
-		h1#banner #coletilla{
-			position: relative;
-			top:-20px;
-			left:335px;
-			width: 0;
-			height: 0;
-			border-bottom: 30px solid #eee; 
-			border-right: 20px solid transparent;	
-		}
-	*/
+
 	p#cite {
 		font-family:'Glegoo';
 		font-size:1.3em;

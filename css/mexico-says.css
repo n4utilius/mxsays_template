@@ -1,0 +1,114 @@
+body { 
+	background: url('../img/tapiz-back.jpg') repeat-y;
+	padding: 20px;
+	min-height:600px;
+}
+div.well{ background:rgba(0,0,0,0.4); }
+
+/* Header */
+	div#header{
+		min-height:140px;
+		padding: 0px;
+	}
+
+	h1#banner {
+		margin:25px 10px 10px 10px ;
+		font-family:'Glegoo';
+		font-size:5em;
+		font-weight:bold;
+		width:450px;
+		height:50px;
+		/*background: #eee;*/
+		line-height:55px;
+		text-shadow: 2px 2px 5px #000;
+		color:#fff;
+
+	}
+	/*
+		h1#banner #coletilla{
+			position: relative;
+			top:-20px;
+			left:335px;
+			width: 0;
+			height: 0;
+			border-bottom: 30px solid #eee; 
+			border-right: 20px solid transparent;	
+		}
+	*/
+	p#cite {
+		font-family:'Glegoo';
+		font-size:1.3em;
+		color:#fff;
+		font-weight:bold;
+		text-shadow: 1px 1px 2px #000;
+		float: left;
+		margin: 5px 10px;
+	}
+
+	div#social{
+		float: right;
+	}
+
+	.fb_edge_widget_with_comment {
+		position: relative;
+		top: -3px;
+		margin: 0px 10px;
+	}
+
+	div#plusone{
+		top:1px;
+	}
+
+/* Contend */
+	div#content{
+		font-family:'Glegoo';
+		color:#000;
+		min-height:300px;
+	}
+
+	h1#tweet-text{
+		background: #eee;
+		font-size:3em;
+		line-height:50px;
+		min-height:230px;
+		padding: 15px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+	}
+
+	#coletilla{
+		position: relative;
+		width: 0;
+	    height: 0;
+	    top:-14px;
+		border-top: 50px solid #eee; 
+		border-right: 85px solid transparent;	
+		float: right;
+	}
+
+	h3#tweet-author a{
+		float:right;
+		padding:15px;
+		font:1.5em bold;
+		text-shadow: 2px 2px 3px #000;
+		filter: dropshadow(color=#000, offx=2, offy=2);
+	}
+
+	h3#tweet-author a:hover{
+		text-shadow: 5px 5px 15px #000;
+		filter: dropshadow(color=#000, offx=2, offy=2);
+	}
+
+	div#content a{color: #34d0ba; font-weight:bold;}
+	div#content a:hover{color: #00a08a; text-decoration:none;}
+
+/* Footer */
+	div#footer{
+		font-family:'Glegoo';
+		color:#fff;
+	}
+	div#footer p#info{ float:left;}
+	div#footer p#contacto{ float:right;}
+
+	div#footer a{color: #34d0ba; }
+	div#footer a:hover{color: #00a08a; text-decoration:none;}
